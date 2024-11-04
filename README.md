@@ -7,4 +7,18 @@ Pymaceuticals, Inc. Homwork Summary:
 As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
 
 The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results."
+
+
+**Code Sources:**
+
+# Using the aggregation method, produce the same summary statistics in a single line (sourced for student xpert learning assistant)
+tumor_stats = mouse_study_clean.groupby("Drug Regimen")["Tumor Volume (mm3)"].agg(
+    mean='mean',
+    median='median',
+    variance='var',
+    std_dev='std',
+    sem=lambda x: x.std() / (len(x) ** 0.5)  # Standard Error of the Mean
+).rename_axis('Drug Regimen').reset_index().set_index('Drug Regimen')
+
+
   
