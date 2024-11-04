@@ -13,11 +13,16 @@ The executive team has tasked you with generating all of the tables and figures 
 
 Used to produce summary statistics in a single line (sourced for student xpert learning assistant)
 tumor_stats = mouse_study_clean.groupby("Drug Regimen")["Tumor Volume (mm3)"].agg(
+    
     mean='mean',
+   
     median='median',
+    
     variance='var',
+    
     std_dev='std',
     sem=lambda x: x.std() / (len(x) ** 0.5)  # Standard Error of the Mean
+
 ).rename_axis('Drug Regimen').reset_index().set_index('Drug Regimen')
 
 
