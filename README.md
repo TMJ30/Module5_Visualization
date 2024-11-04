@@ -11,7 +11,7 @@ The executive team has tasked you with generating all of the tables and figures 
 
 **Code Sources:**
 
-# Using the aggregation method, produce the same summary statistics in a single line (sourced for student xpert learning assistant)
+Used to produce summary statistics in a single line (sourced for student xpert learning assistant)
 tumor_stats = mouse_study_clean.groupby("Drug Regimen")["Tumor Volume (mm3)"].agg(
     mean='mean',
     median='median',
