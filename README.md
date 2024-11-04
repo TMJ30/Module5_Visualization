@@ -11,7 +11,7 @@ The executive team has tasked you with generating all of the tables and figures 
 
 **Code Sources:**
 
-Used to produce summary statistics in a single line (sourced for student xpert learning assistant)
+Used to produce summary statistics in a single line (Sourced from student xpert learning assistant)
    
     tumor_stats = mouse_study_clean.groupby("Drug Regimen")["Tumor Volume (mm3)"].agg(
         
@@ -26,5 +26,8 @@ Used to produce summary statistics in a single line (sourced for student xpert l
     
     ).rename_axis('Drug Regimen').reset_index().set_index('Drug Regimen')
 
+Used to clean DataFrame by dropping the duplicate mouse by its ID (Sourced from professor Ali)
+
+      mouse_study_clean = mouse_studydf[mouse_studydf["Mouse ID"].isin(mice_duplictaes)==False]   
 
   
