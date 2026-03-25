@@ -15,9 +15,9 @@ The main focus of the analysis was too evaluate how Capomulin, the company's lea
 * Explored tumor progression over time
 * Analyzed correlation between mouse weight and tumor volume
 
-> Key findings and insights are documented within the Jupyter Notebook
+> **Notes:** Key findings and insights are documented within the Jupyter Notebook
 
-> All analysis, visualizations, and conclusions are contained in the notebook file
+> **Notes:** All analysis, visualizations, and conclusions are contained in the notebook file
 
 
 
