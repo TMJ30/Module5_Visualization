@@ -1,6 +1,25 @@
-# Module5_Visualization
+# Pymaceuticals, Inc. Homwork Summary
 
-**Pymaceuticals, Inc. Homwork Summary:**
+
+## Overview 
+
+Pymaceuticals, Inc is a pharamaceutical company focused on developing anti-cancer medications. This project analyzes data from a recent animal study evaluating various drug regimens for the treatment of squamous cell carcinoma (SCC), a commonly occuring from of skin cancer.
+
+In this study:
+ * 249 mice with SCC tumors were treated
+ * 10 drug regimens were tested
+ * Tumor growth was observeed over 45 days
+The primary objective is to compare the effectiveness of Capomulin against other treatment options.
+
+
+
+
+
+
+
+
+
+
 
 "You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
