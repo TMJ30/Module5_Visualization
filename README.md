@@ -1,4 +1,4 @@
-# Pymaceuticals, Inc. Homwork Summary
+# Pymaceuticals, Inc. 
 
 ## Overview 
 
